@@ -26,22 +26,21 @@ Los sistemas de riego programado muchas veces desperdician grandes cantidades de
 
 ### Funcionalidades
 
-- **Jardín incorpora el riego automatizado**: Este riego automático a parte de recoger los datos de los sensores que el jardín tiene distribuidos, - **Sistema de riego y nutrición simultáneo**: Los sensores,disponen de célula fotovoltaica y son capaces de detectar humedad, temperatura, luz y abono. 
-El servicios de Watson IoT nos permite:
-  Monitorizar los distintos valores,de esta forma saber lo que realmente necesitan las plantas del jardín.Ademas se   integra con el servicio de The **Weather Channel** para conocer las condiciones meteorológicas y poder ajustar el riego a cada momento en función de la climatología actual y prevista modificando la programación del riego de forma automática. 
+- **Riego inteligente**: Este riego automático a parte de recoger los datos de los sensores que el jardín tiene distribuidos, incluye sistema de nutrición simultáneo. Los sensores,disponen de célula fotovoltaica y son capaces de detectar humedad, temperatura, luz y abono. El servicios de Watson IoT nos permite recoger estos valores y:
+  Monitorizarlos, de esta forma saber lo que realmente necesitan las plantas del jardín.Ademas se integra con el servicio de The **Weather Channel** para conocer las condiciones meteorológicas y poder ajustar el riego a cada momento en función de la climatología actual y prevista modificando la programación del riego de forma automática. 
   Definir alertas de cuando sus niveles bajan del umbral definido por el tipo de planta y ejecutar acciones especificas haciendo que se activen mecanismos del sistema de riego o se avise al jardinero encargado y opte por tomar el control remoto y modificar programa de riego.
 
-- **Alerta de mantenimiento**: Con los caudalimetros distribuidos por el sistema de riego y conectados a la plataforma IoT alertan de posibles fugas al equipo de mantenimiento de jardinería para la reparación o dependiendo del nivel de criticada y del tiempo lanza acción como corte de agua.
+- **Alerta de mantenimiento**: Con los caudalimetros distribuidos por el sistema de riego y conectados a la plataforma IoT alertan de posibles fugas al equipo de mantenimiento de jardinería para la reparación o dependiendo del nivel de criticidad, duración etc lanzar acción como corte de agua.
 Los jardineros tendrán acceso a la monitorizacion de la plantas y del sistema de riego y podrán conocer de antemano la situación en la que se encuentra; mantenimientos realizados en cada zona, cantidad de agua consumida , luz, abono, para poder tener el histórico de cada jardín y determinar posibles tendencias de problemas a futuro.
 
-- **Optimizador ruta de mantenimiento**: En una segunda fase y haciendo uso del servicio Decision Optimization en función de los equipos de jardineros y las alertas se puede optimizar la planificación de mantenimiento; tareas de mantenimiento así como las rutas a realizar para evitar traslados innecesarios, y reducir consumo de transporte. 
+- **Optimizador ruta de mantenimiento**: En una segunda fase tenia pensado simular varios jardines y haciendo uso del servicio Decision Optimization en función de los equipos de jardineros y las alertas se puede optimizar la planificación de mantenimiento así como las rutas a realizar para evitar traslados innecesarios, y reducir consumo de transporte. 
 
 
 ## Prototipo
 
 El prototipo se ha probado con una Raspberry PI 3, sensor DTH11 , display de led del Sense Hat para poder hacer prueba de concepto a cliente.
 
-La conexión se ha realizado con **Watson IoT platform**.para conectar sensor y poder recibir sus datos y NodeRed para crear aplicación y crear flujo de conexión de datos en  Cloudant,  Db2 warehouse on cloud para analítica de datos y the Weather company para predicciones.
+La conexión se ha realizado con **Watson IoT platform** para conectar sensor y poder recibir sus datos y **NodeRed** para crear aplicación y crear flujo de conexión de datos, almacen de datos Cloudant. Y el servicio de The **Weather Channel** para cruzar datos con predicciones meterorológicas.
 
 
 ## ROI
@@ -53,7 +52,7 @@ Tendríamos el ahorro al no regar innecesariamente si en las próximas horas hay
 
 Optimizar los viajes de los jardineros, responsables de mantener el jardín:Solo irían en caso necesario, cuando reciban ciertas alertas asignando alertas en tiempo real en función de cercanía. Ademas de tener el jardín monitorizado y saber lo que necesita cada planta porque saben en las condiciones en las que se encuentran.
 
-Respecto a la calidad de los parques y jardines: Los ciudadanos ganamos en calidad de vida ayudando a mejorar el aire que respiramos, alegría y un ambiente confortable que proporcionan los parques en ciudades donde ladrillo y asfalto nos invade.
+Respecto a la calidad de los parques y jardines: Los ciudadanos ganamos en calidad de vida ayudando a mejorar el aire que respiramos y a proporcionar un ambiente confortable que producen los parques en ciudades donde ladrillo y asfalto nos invade.
  
 
 ## Capturas
