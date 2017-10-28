@@ -27,9 +27,9 @@ Los sistemas de riego programado muchas veces desperdician grandes cantidades de
 ### Funcionalidades
 
 - **Jardín incorpora el riego automatizado**: Este riego automático a parte de recoger los datos de los sensores que el jardín tiene distribuidos, - **Sistema de riego y nutrición simultáneo**: Los sensores,disponen de célula fotovoltaica y son capaces de detectar humedad, temperatura, luz y abono. El servicios de Watson IoT nos permite:
-- Monitorizar los distintos valores,de esta forma saber lo que realmente necesitan las plantas del jardín.Ademas se integra con el servicio de The **Weather Channel** para conocer las condiciones meteorológicas y poder ajustar el riego a cada momento en función de la climatología actual y prevista modificando la programación del riego de forma automática. 
+        Monitorizar los distintos valores,de esta forma saber lo que realmente necesitan las plantas del jardín.Ademas se   integra con el servicio de The **Weather Channel** para conocer las condiciones meteorológicas y poder ajustar el riego a cada momento en función de la climatología actual y prevista modificando la programación del riego de forma automática. 
  
-- Definir alertas de cuando sus niveles bajan del umbral definido por el tipo de planta y ejecutar acciones especificas haciendo que se activen mecanismos del sistema de riego o se avise al jardinero encargado y opte por tomar el control remoto y modificar programa de riego.
+        Definir alertas de cuando sus niveles bajan del umbral definido por el tipo de planta y ejecutar acciones especificas haciendo que se activen mecanismos del sistema de riego o se avise al jardinero encargado y opte por tomar el control remoto y modificar programa de riego.
 
 - **Alerta de mantenimiento**: Con los caudalimetros distribuidos por el sistema de riego y conectados a la plataforma IoT alertan de posibles fugas al equipo de mantenimiento de jardinería para la reparación o dependiendo del nivel de criticada y del tiempo lanza acción como corte de agua.
 Los jardineros tendrán acceso a la monitorizacion de la plantas y del sistema de riego y podrán conocer de antemano la situación en la que se encuentra; mantenimientos realizados en cada zona, cantidad de agua consumida , luz, abono, para poder tener el histórico de cada jardín y determinar posibles tendencias de problemas a futuro.
