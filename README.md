@@ -22,18 +22,18 @@
 
 ## Caso de negocio
 
-Los sistemas de riego programado muchas veces desperdician grandes cantidades de aguas, bien porque haya llovido y no sea necesario riego, exista fuga en el sistema de riego o desgaste y rotura en algunos de los componentes. Ademas de perder efectividad puede encargar zonas de jardín o calles malgastando, agua, y provocando incidentes o caídas en aceras. Hoy en día con el abaratamiento de los sensores podemos monitorizar los puntos mas críticos del sistema de riego mejorar su mantenimiento y hacerlo mas efectivo.
+Los sistemas de riego programado muchas veces desperdician grandes cantidades de aguas, bien porque haya llovido y no sea necesario riego, exista fuga en el sistema de riego o desgaste y rotura de algunos de los componentes. Esto hace que se pierda efectividad. Puede enchar zonas de jardín o calles, malgastando agua y provocando incidentes o caídas en aceras. Hoy en día con el abaratamiento de los sensores podemos monitorizar los puntos mas críticos del sistema de riego para mejorar su mantenimiento y hacerlo mas efectivo.
 
 ### Funcionalidades
 
-- **Riego inteligente**: Este riego automático a parte de recoger los datos de los sensores que el jardín tiene distribuidos, incluye sistema de nutrición simultáneo. Los sensores,disponen de célula fotovoltaica y son capaces de detectar humedad, temperatura, luz y abono. El servicios de Watson IoT nos permite recoger estos valores y:
-  Monitorizarlos, de esta forma saber lo que realmente necesitan las plantas del jardín.Ademas se integra con el servicio de The **Weather Channel** para conocer las condiciones meteorológicas y poder ajustar el riego a cada momento en función de la climatología actual y prevista modificando la programación del riego de forma automática. 
-  Definir alertas de cuando sus niveles bajan del umbral definido por el tipo de planta y ejecutar acciones especificas haciendo que se activen mecanismos del sistema de riego o se avise al jardinero encargado y opte por tomar el control remoto y modificar programa de riego.
+- **Riego inteligente**: Este riego automático a parte de recoger los datos de los sensores que el jardín tiene distribuidos, incluye sistema de nutrición simultáneo (abono líquido). Los sensores,disponen de célula fotovoltaica para generar la energia que necesitan para enviar los datos de deteción de humedad, temperatura, luz y abono. El servicios de Watson IoT nos permite recoger estos valores,monitorizarlos y de esta forma saber lo que realmente necesitan las plantas del jardín.
+Ademas se integra con el servicio de The **Weather Channel** para conocer las condiciones meteorológicas y poder ajustar el riego a cada momento en función de la climatología actual y prevista modificando la programación del riego de forma automática. 
+  Definir alertas de cuando sus niveles bajan del umbral definido por el tipo de planta y ejecutar acciones especificas haciendo que se activen mecanismos del sistema de riego o se avise al jardinero encargado y opte por tomar el control remoto , modificar programa de riego o asistir a la planta
 
-- **Alerta de mantenimiento**: Con los caudalimetros distribuidos por el sistema de riego y conectados a la plataforma IoT alertan de posibles fugas al equipo de mantenimiento de jardinería para la reparación o dependiendo del nivel de criticidad, duración etc lanzar acción como corte de agua.
+- **Alerta de mantenimiento**: Con los caudalimetros distribuidos por el sistema de riego y conectados a la plataforma IoT alertan de posibles fugas al equipo de mantenimiento de jardinería para la reparación o dependiendo del nivel de criticidad, antiguedad de la fuga etc lanzar acción como corte de agua.
 Los jardineros tendrán acceso a la monitorizacion de la plantas y del sistema de riego y podrán conocer de antemano la situación en la que se encuentra; mantenimientos realizados en cada zona, cantidad de agua consumida , luz, abono, para poder tener el histórico de cada jardín y determinar posibles tendencias de problemas a futuro.
 
-- **Optimizador ruta de mantenimiento**: En una segunda fase tenia pensado simular varios jardines y haciendo uso del servicio Decision Optimization en función de los equipos de jardineros y las alertas se puede optimizar la planificación de mantenimiento así como las rutas a realizar para evitar traslados innecesarios, y reducir consumo de transporte. 
+- **Optimizador ruta de mantenimiento**: En una segunda fase se podria simular varios jardines y haciendo uso del servicio Decision Optimization en función de los equipos de jardineros y las alertas se puede optimizar la planificación de mantenimiento así como las rutas a realizar para evitar traslados innecesarios, maximizar tiempo de trabajadores y reducir consumo de transporte. 
 
 
 ## Prototipo
